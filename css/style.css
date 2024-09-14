@@ -355,7 +355,6 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-counter,
 #fh5co-event {
-  height: 850px;
   float: left;
 }
 #fh5co-counter .display-t,
@@ -391,7 +390,7 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-counter,
   #fh5co-event {
     height: inherit;
-    padding: 7em 0;
+    padding: 6em 0;
   }
   #fh5co-counter .display-t,
   #fh5co-counter .display-tc,
@@ -446,7 +445,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .event-wrap .event-col,
 #fh5co-event .event-wrap .event-col {
-  width: 33%;
+  width: 100%;
   float: left;
   margin-bottom: 30px;
 }
@@ -1000,11 +999,13 @@ form label {
 #fh5co-started,
 #fh5co-footer,
 #fh5co-event,
+#fh5co-accomodations,
 #fh5co-couple-story,
 #fh5co-couple,
 #fh5co-gallery,
+#fh5co-rsvp,
 .fh5co-section {
-  padding: 7em 0;
+  padding: 6em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
