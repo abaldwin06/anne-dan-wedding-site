@@ -635,6 +635,86 @@ h1, h2, h3, h4, h5, h6, figure {
     right: auto;
   }
 }
+
+/* CUSTOM STYLING FOR ACCOMMODATIONS SECTION */
+
+@media (min-width: 768px) {
+#fh5co-accommodations .container {
+  width: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+}
+
+#fh5co-accommodations .card-body span.notice {
+  display: block;
+  font-weight: bolder;
+  font-style: normal;
+  margin-bottom: 1rem;
+}
+
+#fh5co-accommodations .card-body span {
+  display: block;
+  font-style: italic;
+}
+
+#fh5co-accommodations .fh5co-heading, 
+#fh5co-accommodations .accordion {
+  margin-bottom: 1.5rem;
+}
+#fh5co-accommodations .card-body p {
+  margin-bottom: 0;
+}
+#fh5co-accommodations .card-header button {
+  color: #5d5d5d;
+  font-size: 2rem;
+}
+#fh5co-accommodations .card-body .acc-img {
+  padding: 1rem;
+  max-width: 90%;
+}
+
+#fh5co-accommodations .card-body .acc-icon {
+  font-size: 64px;
+  margin: 1rem;
+}
+
+#fh5co-accommodations .card-body .spacer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#fh5co-transport i.acc-icon {
+  font-size: 32px;
+  margin: 1rem;
+}
+#fh5co-transport svg.acc-icon {
+  font-size: 32px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+/* not working yet */
+/* #fh5co-accommodations .card-body .acc-img {
+  /* 
+  padding: 0;
+  margin: 0 0 10px 1%; 
+  display: block;
+  width: 50%;
+  height: auto;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+float: left;
+  clear: left;
+  position: relative;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  border-radius: 7px; 
+} */
+
 #fh5co-gallery-list {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
@@ -999,7 +1079,8 @@ form label {
 #fh5co-started,
 #fh5co-footer,
 #fh5co-event,
-#fh5co-accomodations,
+#fh5co-accommodations,
+#fh5co-transport,
 #fh5co-couple-story,
 #fh5co-couple,
 #fh5co-gallery,
