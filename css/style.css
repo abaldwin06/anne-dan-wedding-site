@@ -1092,11 +1092,16 @@ form label {
 #fh5co-couple-story,
 #fh5co-couple,
 #fh5co-gallery,
-#fh5co-rsvp,
 .fh5co-section {
   padding: 6em 0;
   clear: both;
 }
+
+#fh5co-rsvp {
+  padding: 2em 0;
+  clear: both;
+}
+
 @media screen and (max-width: 768px) {
   #fh5co-testimonial,
   #fh5co-services,
