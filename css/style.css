@@ -732,6 +732,7 @@ float: left;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  justify-content: space-around;
   position: relative;
   float: left;
   padding: 0;
@@ -787,7 +788,7 @@ float: left;
 #fh5co-gallery-list li a:hover:before {
   background: rgba(0, 0, 0, 0.5);
 }
-#fh5co-gallery-list li a .case-studies-summary {
+#fh5co-gallery-list li a .registry-option {
   width: auto;
   bottom: 2em;
   left: 2em;
@@ -796,38 +797,29 @@ float: left;
   z-index: 100;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li a .case-studies-summary {
+  #fh5co-gallery-list li a .registry-option {
     bottom: 1em;
     left: 1em;
     right: 1em;
   }
 }
-#fh5co-gallery-list li a .case-studies-summary span {
+#fh5co-gallery-list li a .registry-option span {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.7);
 }
-#fh5co-gallery-list li a .case-studies-summary h2 {
+#fh5co-gallery-list li a .registry-option h3 {
   color: #fff;
   margin-bottom: 0;
 }
-@media screen and (max-width: 768px) {
-  #fh5co-gallery-list li a .case-studies-summary h2 {
-    font-size: 20px;
-  }
-}
+
 #fh5co-gallery-list li.one-third {
   width: 32.3%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   #fh5co-gallery-list li.one-third {
-    width: 49%;
-  }
-}
-@media screen and (max-width: 480px) {
-  #fh5co-gallery-list li.one-third {
-    width: 100%;
+    width: 66%;
   }
 }
 
@@ -1085,7 +1077,6 @@ form label {
 #fh5co-testimonial,
 #fh5co-services,
 #fh5co-started,
-#fh5co-footer,
 #fh5co-event,
 #fh5co-accommodations,
 #fh5co-transport,
@@ -1097,6 +1088,10 @@ form label {
   clear: both;
 }
 
+#fh5co-footer {
+  padding-bottom: 6em;
+}
+
 #fh5co-rsvp {
   padding: 2em 0;
   clear: both;
@@ -1106,13 +1101,15 @@ form label {
   #fh5co-testimonial,
   #fh5co-services,
   #fh5co-started,
-  #fh5co-footer,
   #fh5co-event,
   #fh5co-couple-story,
   #fh5co-couple,
   #fh5co-gallery,
   .fh5co-section {
-    padding: 3em 0;
+    padding: 2em 0;
+  }
+  #fh5co-footer {
+    padding-bottom: 2em;
   }
 }
 

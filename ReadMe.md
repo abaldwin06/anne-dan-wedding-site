@@ -7,8 +7,8 @@
 [ ] Update with pre-wedding event
 [X] Update with Accomodations 
 [ ] Update with Things to Do 
-[ ] Update with Transport details
-[ ] RSVP form
-[ ] Registry
+[X] Update with Transport details
+[X] RSVP form
+[X] Registry
 
 
