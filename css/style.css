@@ -590,7 +590,7 @@ h1, h2, h3, h4, h5, h6, figure {
 /* -------------- ACCOMMODATIONS FORMATTING ---------------- */
 
 @media (min-width: 768px) {
-#fh5co-accommodations .container {
+#fh5co-accommodations .container,#welcome-details .container {
   width: auto;
   margin-left: 10%;
   margin-right: 10%;
@@ -638,11 +638,14 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 1rem;
 }
 
-#fh5co-accommodations .card-body .spacer {
+#fh5co-accommodations .card-body .spacer,#welcome-details .card-body .spacer {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-
+#fh5co-transport span.emphasis {
+  font-weight: bolder;
+  color:#0c8185;
+}
 #fh5co-transport i.acc-icon {
   font-size: 32px;
   margin: 1rem;
@@ -654,6 +657,34 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-top: 1rem;
   margin-bottom: 0;
 }
+
+#fh5co-transport table {
+  border-collapse: collapse; /* Ensures borders don't double up */
+  width: 100%; /* Optional: makes table span the container */
+}
+
+#fh5co-transport th, #fh5co-transport td {
+  border: 1px solid #333; /* Controls cell border */
+  padding: 5px; /* Controls space inside cells (cell padding) */
+  text-align: center; /* Optional: aligns text inside cells */
+}
+
+#fh5co-transport h3, #local-attractions h3 {
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  font-size: 20px;
+  color:#5d5d5d;
+
+}
+
+
+#local-attractions li {
+  list-style: none;
+}
+
+
 /* not working yet */
 /* #fh5co-accommodations .card-body .acc-img {
   /* 
@@ -830,7 +861,6 @@ float: left;
   left: 0;
   top: .05em;
   font-family: 'icomoon';
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1078,7 +1108,9 @@ form label {
 #fh5co-rsvp,
 #fh5co-couple,
 #fh5co-gallery,
-.fh5co-section {
+.fh5co-section,
+#welcome-details,
+#local-attractions {
   padding: 4em 0;
   clear: both;
 }
@@ -1563,7 +1595,6 @@ form label {
   position: absolute;
   right: 0px;
   font-family: 'icomoon';
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;

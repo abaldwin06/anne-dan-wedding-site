@@ -4,9 +4,9 @@
 
 ### To Do
 [X] Basic info
-[ ] Update with pre-wedding event
+[X] Update with pre-wedding event
 [X] Update with Accomodations 
-[ ] Update with Things to Do 
+[X] Update with Things to Do 
 [X] Update with Transport details
 [X] RSVP form
 [X] Registry
