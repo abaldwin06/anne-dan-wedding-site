@@ -587,6 +587,14 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
+@media (max-width: 480px) {
+  #welcome-details .card {
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  }
+
 /* -------------- ACCOMMODATIONS FORMATTING ---------------- */
 
 @media (min-width: 768px) {
