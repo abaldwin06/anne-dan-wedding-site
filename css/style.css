@@ -1640,14 +1640,14 @@ form label {
   right: 20px;
   z-index: 999;
   opacity: 0;
-  visibility: hidden;
+  /* visibility: hidden; */
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 .gototop.active {
   opacity: 1;
-  visibility: visible;
+  /* visibility: visible; */
 }
 .gototop a {
   width: 50px;
