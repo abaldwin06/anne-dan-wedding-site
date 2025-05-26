@@ -341,7 +341,6 @@ h1, h2, h3, h4, h5, h6, figure {
     height: inherit;
     padding: 6em 0;
   }
-
   #fh5co-counter .display-t,
   #fh5co-counter .display-tc,
   #fh5co-event .display-t,
@@ -594,6 +593,8 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-right: 5%;
   }
   }
+
+/* CUSTOM STYLING FOR ACCOMMODATIONS SECTION */
 
 /* -------------- ACCOMMODATIONS FORMATTING ---------------- */
 
@@ -958,6 +959,8 @@ form label {
   #fh5co-counter .display-tc h2,
   .fh5co-cover .display-tc h2 {
     font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 16px;
     line-height: 1.2;
     margin-bottom: 16px;
   }
